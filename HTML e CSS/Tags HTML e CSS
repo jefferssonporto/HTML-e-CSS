@@ -58,24 +58,30 @@ style="text-align:right;" -   alinhamento canto direito
 <sub> </sub> - palavra subreescrito
 
 
-"nomedatag" {
+Textos {
     text-align: justify; /* Alinhamneto do texto da esquerdo quanto a direita*/ 
     text-indent: 50px; - ter espaço no paragrafo 
     text-decoration: underline;" - formatar palavras/frases dentro da tag span
     text-decoration: overlaine;" - linha acima do texto com tag span
     text-decoration: line-through;"  - texto riscada com tag span
     text-decoration: none;"  - texto sem decoração
-    font-weight: ;" - tag da  quantidade de negrito
-    font-weight: bold;" -  negrito
-    font-weight: normal;"  -  fica normal
-    font-weight: bolder;" -  Muito Negrito 
-    font-weight: 400;"  -  Pode ser colocado como forma de numeros o negrito. 
-}  
+    font-weight: ; - tag da  quantidade de negrito
+    font-weight: bold; -  negrito
+    font-weight: normal; -  fica normal
+    font-weight: bolder; -  Muito Negrito 
+    font-weight: 400;  -  Pode ser colocado como forma de numeros o negrito
+}
 
-
-
-
-
+Cores{
+    background-color: red; - por nome 
+    background-color: rgb(35,137, 195); - 35 red, 137verde, 195 azul - por numero
+    background-color#000000 - por código
+    background-color: hsl(165, 81%,93%) ou  - hsla(165, 81%,93%, 0,5) - Matiz, saturação e luminosidade
+    background-image: url=("nomedaimagem");
+    Color: black; - cor do texto
+    Color: rgba(0,0,0,0,); - cor do texto sendo o ultimo o alfa entre 0 e 1
+    
+} *
 
 
 
