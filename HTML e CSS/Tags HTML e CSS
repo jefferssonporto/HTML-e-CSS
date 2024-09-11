@@ -1,61 +1,44 @@
-/* Script Básico */ 
-<!DOCTYPE html>
-<html lang="pt-br"> 
-<head> 
+/* Script Básico */ {
+
+    <!DOCTYPE html>
+    <html lang="pt-br"> 
+    <head> 
     <meta charset="UTF-8">
     <title> EXEMPLO </title>
     /* CSS */ <Style> h1{
-
-    }
-         
+    }   
     </Style>
-<body> 
+    <body> 
     <h1> TITULO PRINCIPAL</h1>
     <h2> TITULO SECUNDÁRIO </h2>
-</body>
-</html>
-
-TAGS:
-/* Integração do CSS no html */
-<link rel="stylesheet" type="text/css" href=""/> 
-
-/* Tag Style abaixo do Title */
-STYLE h1{ 
+    </body>
+    </html>
 }
 
-<p></p> - paragrafo 
-<code> </code> - tudo que estiver entre a tag sera considerado e formatado como um código
-<pre> </pre> - tudo que estiver dentro da Tag será considerado como preformatado, todos os espaçose enters serão considerados
-<wbr> </wbr> - quebra de palavra
-<b> </b> - Letra em negritos
-<i> </i> - Letra em Itálico 
-<em> </em> - Enfase
-<u></u> - underline
-<s></s> - Letra riscada 
-<del></del> - Letra riscada
-<span style="text-decoration: underline;"> </span> - formatar palavras/frases dentro da tag span
-<span style="text-decoration: overlaine;"> </span> - linha acima do texto com tag span
-<span style="text-decoration: line-through;"> </span> - texto riscada com tag span
-<span style="text-decoration: none;"> </span> - texto sem decoração
-<span style="font-weight: ;"> </span> - tag da  quantidade de negrito
-<span style="font-weight: bold;"> </span> -  negrito
-<span style="font-weight: normal;"> </span> -  fica normal
-<span style="font-weight: bolder;"> </span> -  Muito Negrito 
-<span style="font-weight: 400;"> </span> -  Pode ser colocado como forma de numeros o negrito. 
-font-family - Tipos de fontes 
-font-size - Tamanho da fonte 
-Color - Cor da fonte 
-Text-shadow - Sombreamento da letra com 5 opções de configurações 
-ex: 2x 2x 2x black = 1º Deslocamento para direita 2º Deslocamento para baixo 3º espalhamento da sombra 4º cor da somba
+TAGS {
+    /* Integração do CSS no html */
+    <link rel="stylesheet" type="text/css" href=""/> 
 
-<align></align>  - centralizar texto    
-style="text-align:center;" -  centralizar texto 
-style="text-align:left;" -   texto normal no canto esquerdo
-style="text-align:right;" -   alinhamento canto direito
-<p style:"text-align: justify;">  </p>- Alinhamneto do texto da esquerdo quanto a direita* 
-<p style:"text-align: justify;>text-indent: 50 px" </p> - ter espaço no paragrafo 
-<sup> </sup> - palavra sobreescrito
-<sub> </sub> - palavra subreescrito
+    /* Tag Style abaixo do Title */
+    STYLE h1{ 
+    }
+}
+Textos decoration { 
+    <span style="text-decoration: underline;"> </span> - formatar palavras/frases dentro da tag span
+    <span style="text-decoration: overlaine;"> </span> - linha acima do texto com tag span
+    <span style="text-decoration: line-through;"> </span> - texto riscada com tag span
+    <span style="text-decoration: none;"> </span> - texto sem decoração
+    <span style="font-weight: ;"> </span> - tag da  quantidade de negrito
+    <span style="font-weight: bold;"> </span> -  negrito
+    <span style="font-weight: normal;"> </span> -  fica normal
+    <span style="font-weight: bolder;"> </span> -  Muito Negrito 
+    <span style="font-weight: 400;"> </span> -  Pode ser colocado como forma de numeros o negrito. 
+    font-family - Tipos de fontes 
+    font-size - Tamanho da fonte 
+    Color - Cor da fonte 
+    Text-shadow - Sombreamento da letra com 5 opções de configurações 
+    ex: 2x 2x 2x black = 1º Deslocamento para direita 2º Deslocamento para baixo 3º espalhamento da sombra 4º cor da somba
+}
 
 
 Textos {
@@ -70,6 +53,24 @@ Textos {
     font-weight: normal; -  fica normal
     font-weight: bolder; -  Muito Negrito 
     font-weight: 400;  -  Pode ser colocado como forma de numeros o negrito
+    <align></align>  - centralizar texto    
+    style="text-align:center;" -  centralizar texto 
+    style="text-align:left;" -   texto normal no canto esquerdo
+    style="text-align:right;" -   alinhamento canto direito
+    <p style:"text-align: justify;">  </p>- Alinhamneto do texto da esquerdo quanto a direita* 
+    <p style:"text-align: justify;>text-indent: 50 px" </p> - ter espaço no paragrafo 
+    <sup> </sup> - palavra sobreescrito
+    <sub> </sub> - palavra subreescrito
+    <p></p> - paragrafo 
+    <code> </code> - tudo que estiver entre a tag sera considerado e formatado como um código
+    <pre> </pre> - tudo que estiver dentro da Tag será considerado como preformatado, todos os espaçose enters serão considerados
+    <wbr> </wbr> - quebra de palavra
+    <b> </b> - Letra em negritos
+    <i> </i> - Letra em Itálico 
+    <em> </em> - Enfase
+    <u></u> - underline
+    <s></s> - Letra riscada 
+    <del></del> - Letra riscada
 }
 
 Cores{
@@ -79,38 +80,47 @@ Cores{
     background-color: hsl(165, 81%,93%) ou  - hsla(165, 81%,93%, 0,5) - Matiz, saturação e luminosidade
     background-image: url=("nomedaimagem");
     Color: black; - cor do texto
-    Color: rgba(0,0,0,0,); - cor do texto sendo o ultimo o alfa entre 0 e 1
-    
-} *
+    Color: rgba(0,0,0,0,); - cor do texto sendo o ultimo o alfa entre 0 e 1  
+} 
+
+Fotos{
+    <img src="caminhodaimagem/>"  Adicionar imagem
+    <figure> </figure> - colocar imagens e dar um objetivo semantico, toda imagem deve ser colocada entre a tags.
+   <figcaption> </figcaption>  - Tudo que estiver a tag pode ser uma legenda de uma imagem
+   
+    }
 
 
 
-Simbolos:
-&shy; -  quebra de palavra
-&lt; - Menor que <
-&gt; - Maior que >
-&le; - menor igual a 
-&ge; - maior igual a 
-&pound; - simbolo de limbra 
-&yen; - simbolode yenes  japones
-&euro; - simbolo de euro
-&copy; - copyright
-&reg; - marca registrada (R)
-&trade; - TM 
-&permil; - simbolo divisor por mil
-&sum; - de soma
-&infin; - Infinito 
-&times; - multiplicação
-&plusmn; - mais ou menos 
-&oplus; - + dentro de uma circunferencia
-&radic; - raiz quadrada
-&ne; - não igual 
-&delta; - delta letra minuscula
-&Deslta; - Delta letra maiuscula 
-&Lmabda; / &Omega; / &phi; 
-&larr; - seta pra esquerda 
-&rarr; seta para direita
-&uarr; - seta pra cima
-&darr; - seta para baixo
-&harr; - seta para os dois lados
-&spades; / &clubs;/ &hearts;/ &diams; - simbolo de cartas
+Simbolos{
+    &shy; -  quebra de palavra
+    &lt; - Menor que <
+    &gt; - Maior que >
+    &le; - menor igual a 
+    &ge; - maior igual a 
+    &pound; - simbolo de limbra 
+    &yen; - simbolode yenes  japones
+    &euro; - simbolo de euro
+    &copy; - copyright
+    &reg; - marca registrada (R)
+    &trade; - TM 
+    &permil; - simbolo divisor por mil
+    &sum; - de soma
+    &infin; - Infinito 
+    &times; - multiplicação
+    &plusmn; - mais ou menos 
+    &oplus; - + dentro de uma circunferencia
+    &radic; - raiz quadrada
+    &ne; - não igual 
+    delta; - delta letra minuscula
+    &Deslta; - Delta letra maiuscula 
+    &Lmabda; / &Omega; / &phi; 
+    &larr; - seta pra esquerda 
+    &rarr; seta para direita
+    &uarr; - seta pra cima
+    &darr; - seta para baixo
+    &harr; - seta para os dois lados
+    &spades; / &clubs;/ &hearts;/ &diams; - simbolo de cartas
+}
+
+
