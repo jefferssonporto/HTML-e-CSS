@@ -15,7 +15,7 @@
     </html>
 }
 
-TAGS {
+Tags Integração  {
     /* Integração do CSS no html */
     <link rel="stylesheet" type="text/css" href=""/> 
 
