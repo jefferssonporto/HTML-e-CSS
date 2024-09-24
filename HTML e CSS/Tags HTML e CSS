@@ -87,8 +87,20 @@ Fotos{
     <img src="caminhodaimagem/>"  Adicionar imagem
     <figure> </figure> - colocar imagens e dar um objetivo semantico, toda imagem deve ser colocada entre a tags.
    <figcaption> </figcaption>  - Tudo que estiver a tag pode ser uma legenda de uma imagem
-   
-    }
+   }
+
+
+Fotos Decoration { 
+    Border - 8px /*tamanho da bordar*/ 
+    Box shadow - colocar uma sobra
+    width -  largura 
+    height - altura 
+    position: absolute; /* posição absoluta ao redor do seu container
+    box-sizing: border-box; - um Box dentro da borda 
+    figure.foto-legenda:hover figcaption - formatação especifica quando passar o mouse por cima do figcaption
+    transition: opacity 1s; - quando passar o mouse em cima da foto, demora o tempo de 1 segundo para aparecer o figcaption.
+
+}
 
 
 
