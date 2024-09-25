@@ -43,6 +43,12 @@ Textos decoration {
     Color - Cor da fonte 
     Text-shadow - Sombreamento da letra com 5 opções de configurações 
     ex: 2x 2x 2x black = 1º Deslocamento para direita 2º Deslocamento para baixo 3º espalhamento da sombra 4º cor da somba
+    tex t-transform: uppercase; - Deixa todas as letras maiusculas
+    display: inline-block; - deixa o texto alinhado na mesma linha, horizontal
+    margin - espaço fora do objeto texto/imagem
+    padding - espaço dentro do objeto texto/imagem
+
+
 }
 
 
@@ -109,6 +115,17 @@ Fotos Decoration {
 
 Container {
     <nav> </nav> - container de navegação dentro de um site, menu de navegação.
+    nav#menu - formatação em CSS. 
+    list-style: none; - some com os marcadores.
+    display: block; - menu flutue pela tela junto com posição absoluta do menu
+    posição relativa - fica preso dentro do container
+    posição aboluta - ele fica livre pelo site
+    nav#menu li:hover {} - quando passar o mouse por cima faz uma interação.
+    transition: background-color 1s; - transição ao passar o mouse junto configurada com o hover e editada na lista.
+    
+
+
+    
     }
 
 Listas {
