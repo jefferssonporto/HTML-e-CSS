@@ -15,12 +15,17 @@
     </html>
 }
 
-Tags Integração  {
+Tags Integração e Link  {
     /* Integração do CSS no html */
     <link rel="stylesheet" type="text/css" href=""/> 
 
     /* Tag Style abaixo do Title */
     STYLE h1{ 
+
+    <a> </a> - Ancora, é a base para criação de um link
+    href="" - para a Ancora funcionar, precisar utiliaar a referencia hiper texto.
+    target="_blank" - dentro da tag <a>, para abrir uma nova guia ao clicar no link
+    target="_self" - dentro da tag <a>, é o valor padrão que pode se omitir ou explicitar, abre o link na mesma aba.
     }
 }
 Textos decoration { 
@@ -102,7 +107,25 @@ Fotos Decoration {
 
 }
 
+Container {
+    <nav> </nav> - container de navegação dentro de um site, menu de navegação.
+    }
 
+Listas {
+    Ordered Lists ol - Listas ordenadas
+    Unordered Lists ul - Listas não ordenadas
+    List items li - Itens de Listas
+    <ol type="1"> - Lista ordenada númerica
+    <ol type="a"> - Lista ordenada alfabética
+    <ol type="i"> - Lista ordenada com algarismos romanos
+    <ol type="1" start="3"> - Lista ordenada começando com o terceiro número, vale para letras e algarismos romanos.
+    <ul  type="Square"> - Marcação em pequenos quadrados
+    <ul  type="circle"> - Marcação em pequenos circulos com bordas pretas e fundo branco
+    <ul  type="disc"> - Marcação em pequenos circulos com fundos pretos
+
+
+
+    }
 
 Simbolos{
     &shy; -  quebra de palavra
