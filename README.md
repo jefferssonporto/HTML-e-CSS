@@ -1,2 +1,2 @@
 # HTML e CSS
-Tags/scripts de HTML e CSS. Tags básicas em HTML, parágrafos, quebras, simbolos especiais, formatação de textos e cores, imagens e formatação de imagens, listas e formatção de listas com OL, UL e LI, container e formatação de container, Criação e formatação de Menu , Links e formatação de links
+Tags/scripts de HTML e CSS. Tags básicas em HTML, parágrafos, quebras, simbolos especiais, formatação de textos e cores, imagens e formatação de imagens, listas e formatção de listas com OL, UL e LI, container e formatação de container, Criação e formatação de Menu , Links e formatação de links, Formatação de interfaces.
