@@ -157,12 +157,22 @@ Listas {
     }
 
 Tabelas {
-    Cada linha da tabela em HTML será uma Table Row, ou TR. Cada célula de dados será uma Table Data, ou TD.
-    Os fechamentos das tags /TR e /TD são opcionais e podem ser omitidas.
+    <tr> </tr> - Cada linha da tabela em HTML será uma Table Row, ou TR. Cada célula de dados será uma Table Data, ou TD.
+    <td> </td> Table Data - Os fechamentos das tags /TR e /TD são opcionais e podem ser omitidas.
     Utilizando CSS3, podemos utilizar alguns modificadores para formatar a tabela, usando BORDER para criar bordas sólidas para TABLE, TR e TD.
     O modificador BORDER-SPACING das CSS modifica o espaço entre as células de uma tabela.
     No HTML, podemos realizar ROWSPAN, que vai criar uma expansão de linha nas células.
     Utilizando COLSPAN, teremos uma expansão de coluna nas células de uma tabela HTML5.
+    <table> </table> = marcação da Criação da tabela
+    <caption> </caption> = titulo da tabela
+    border-spacing: 0px; - espaço entre as celulas.
+    <td rowspan="2"> Exemplo</td> - A frase/palavra vai ocupar 2 linhas
+    <tr> <td colspan="2"> Exemplo </td>  </tr> - A frase/palavra vai ocupar 2 colunas
+     text-align: center/right/left; - alinhamento do texto da tabela
+    vertical-align: middle (centro) / top (cima) / bottom(baixo); - alinhar as palavras principais
+
+
+
     }
 Simbolos{
     &shy; -  quebra de palavra
