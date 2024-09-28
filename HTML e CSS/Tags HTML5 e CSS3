@@ -26,7 +26,8 @@ Tags Integração e Link  {
     href="" - para a Ancora funcionar, precisar utiliaar a referencia hiper texto.
     target="_blank" - dentro da tag <a>, para abrir uma nova guia ao clicar no link
     target="_self" - dentro da tag <a>, é o valor padrão que pode se omitir ou explicitar, abre o link na mesma aba.
-    }
+    url(""); - tag para carregar uma imagem ou qualquer outro tipo de arquivo em CSS. (../ para voltar uma pasta)
+    no-repeate - parametro para quando anixar uma imagem ela não se repetir. 
 }
 Textos decoration { 
     <span style="text-decoration: underline;"> </span> - formatar palavras/frases dentro da tag span
@@ -41,18 +42,22 @@ Textos decoration {
     font-family - Tipos de fontes 
     font-size - Tamanho da fonte 
     Color - Cor da fonte 
-    Text-shadow - Sombreamento da letra com 5 opções de configurações 
+    Text-shadow - Sombreamento da letra com 5 opções de configurações ( 1px 1px 1px cor)
     ex: 2x 2x 2x black = 1º Deslocamento para direita 2º Deslocamento para baixo 3º espalhamento da sombra 4º cor da somba
     tex t-transform: uppercase; - Deixa todas as letras maiusculas
     display: inline-block; - deixa o texto alinhado na mesma linha, horizontal
     Margem ordem (tag margin): cima, direita, baixo, esquerda. Ex: margin: 10px(cima) 10px(Direita) 10px(baixo) 10px(esquerda)
     padding - espaço dentro do objeto texto/imagem Ex: Padding: 10px(cima) 10px(Direita) 10px(baixo) 10px(esquerda)
-
+    Border-bottom - borda de baixo 
+    border-left - borda da esquerda
+    border-right - bordar da direita
+    border-top - borda de cima  
+    Parametros da border solid (linha reta) / dashed (linhas tracejado) / dotted (linha pontilhada), double(mais enfase)
 
 }
 
 
-Textos {
+Textos / Fontes {
     text-align: justify; /* Alinhamneto do texto da esquerdo quanto a direita*/ 
     text-indent: 50px; - ter espaço no paragrafo 
     text-decoration: underline;" - formatar palavras/frases dentro da tag span
@@ -82,6 +87,10 @@ Textos {
     <u></u> - underline
     <s></s> - Letra riscada 
     <del></del> - Letra riscada
+    Font-family - Arial - Forma da letra
+    Font-size - tamanho da letra
+    color - cor da letra 
+    Fontes - google fontes + url de importação + font-family de importação css
 }
 
 Cores{
@@ -122,9 +131,11 @@ Container / Interfaces {
     posição absoluta - ele fica livre pelo site
     nav#menu li:hover {} - quando passar o mouse por cima faz uma interação.
     transition: background-color 1s; - transição ao passar o mouse junto configurada com o hover e editada na lista.
-    
-    
-
+    SECTION (de sessão): Cria uma sessão que vai poder conter vários artigos (ARTICLE) ou objetos.
+    ASIDE(Conteúdo Lateral): São conteúdos periféricos, que estão diretamente relacionados ao conteúdo do artigo principal.
+    FOOTER (Rodapé): É o rodapé da página ou do conteúdo específico.
+    Float - Flutuar o container
+    clear: both; - limpar a configuração dos lados.
 
     
     }
@@ -145,6 +156,14 @@ Listas {
 
     }
 
+Tabelas {
+    Cada linha da tabela em HTML será uma Table Row, ou TR. Cada célula de dados será uma Table Data, ou TD.
+    Os fechamentos das tags /TR e /TD são opcionais e podem ser omitidas.
+    Utilizando CSS3, podemos utilizar alguns modificadores para formatar a tabela, usando BORDER para criar bordas sólidas para TABLE, TR e TD.
+    O modificador BORDER-SPACING das CSS modifica o espaço entre as células de uma tabela.
+    No HTML, podemos realizar ROWSPAN, que vai criar uma expansão de linha nas células.
+    Utilizando COLSPAN, teremos uma expansão de coluna nas células de uma tabela HTML5.
+    }
 Simbolos{
     &shy; -  quebra de palavra
     &lt; - Menor que <
