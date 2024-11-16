@@ -18,7 +18,9 @@
 Tags Integração e Link  {
     /* Integração do CSS no html */
     <link rel="stylesheet" type="text/css" href=""/> 
+     <script language = "javascript" src=""> </script>
 
+/* Integração JS */
     /* Tag Style abaixo do Title */
     STYLE h1{ 
 
@@ -107,6 +109,7 @@ Fotos{
     <img src="caminhodaimagem/>"  Adicionar imagem
     <figure> </figure> - colocar imagens e dar um objetivo semantico, toda imagem deve ser colocada entre a tags.
    <figcaption> </figcaption>  - Tudo que estiver a tag pode ser uma legenda de uma imagem
+   alt="" - parametro do img para texto alternativo na imagem
    }
 
 
@@ -136,6 +139,7 @@ Container / Interfaces {
     FOOTER (Rodapé): É o rodapé da página ou do conteúdo específico.
     Float - Flutuar o container
     clear: both; - limpar a configuração dos lados.
+    article - parametro de divisão 
 
     
     }
