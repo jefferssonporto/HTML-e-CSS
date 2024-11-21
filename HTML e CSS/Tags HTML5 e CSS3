@@ -114,11 +114,17 @@ Fotos{
    Mix-blend-mode" com o valor "darken" no seletor "img" aplica um efeito de mesclagem entre a imagem e o fundo onde ela está inserida. 
    A propriedade "mix-blend-mode" define como os pixels de um elemento vão interagir com os pixels do seu fundo, utilizando diferentes 
    modos de mesclagem.
-   }
+
+   <iframe> </iframe> - Carregar um conteudo na lateral, utilizando colunas, imagens que stá localizado em outro arquivo.
+   Todo iframe precisa de um nome, e sempre precisa fechar com barra, mesmo que fique vazio no meio.
+   overflow: hidden; - remover a visualização do conteudo no iframe, evitar que a rolagem do resto do conteudo aconteça.
+   iframe#frame-spec::-webkit-scrollbar { display: none; } - uma abordagem para esconder as barras de rolagem, mas ela funciona apenas em navegadores que utilizam o motor WebKit
+   
 
 
 Fotos Decoration { 
     Border - 8px /*tamanho da bordar*/ 
+    Border none - remover a borda.
     Box shadow - colocar uma sobra ex: 0px(deslocamento lateral) 0px (deslocamento vertical) 10px (espalhamento da sombra) black (cor da sombra);
     width -  largura 
     height - altura 
@@ -126,7 +132,6 @@ Fotos Decoration {
     box-sizing: border-box; - um Box dentro da borda 
     figure.foto-legenda:hover figcaption - formatação especifica quando passar o mouse por cima do figcaption
     transition: opacity 1s; - quando passar o mouse em cima da foto, demora o tempo de 1 segundo para aparecer o figcaption.
-
 }
 
 Container / Interfaces {
