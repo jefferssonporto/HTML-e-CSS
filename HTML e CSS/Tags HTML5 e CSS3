@@ -110,6 +110,10 @@ Fotos{
     <figure> </figure> - colocar imagens e dar um objetivo semantico, toda imagem deve ser colocada entre a tags.
    <figcaption> </figcaption>  - Tudo que estiver a tag pode ser uma legenda de uma imagem
    alt="" - parametro do img para texto alternativo na imagem
+
+   Mix-blend-mode" com o valor "darken" no seletor "img" aplica um efeito de mesclagem entre a imagem e o fundo onde ela está inserida. 
+   A propriedade "mix-blend-mode" define como os pixels de um elemento vão interagir com os pixels do seu fundo, utilizando diferentes 
+   modos de mesclagem.
    }
 
 
