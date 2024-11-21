@@ -119,7 +119,16 @@ Fotos{
    Todo iframe precisa de um nome, e sempre precisa fechar com barra, mesmo que fique vazio no meio.
    overflow: hidden; - remover a visualização do conteudo no iframe, evitar que a rolagem do resto do conteudo aconteça.
    iframe#frame-spec::-webkit-scrollbar { display: none; } - uma abordagem para esconder as barras de rolagem, mas ela funciona apenas em navegadores que utilizam o motor WebKit
-   
+                       
+    Tag para utilização do mapa de imagens
+
+    <img src="" usemap="#nomedomapa">
+             <map name="nomedomapa">    
+             <area shape="" coords="" href="#nomedoID" target=""/>      
+             </map>
+
+Tipos de shapes: Retangulo (react),Circulos(cicle) e Poligonal(poly).
+Todo mapa é composto por areas, com seu shape definido, precisa se colocar suas coordenadas.
 
 
 Fotos Decoration { 
