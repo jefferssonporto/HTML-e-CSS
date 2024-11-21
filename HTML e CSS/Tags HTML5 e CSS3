@@ -55,7 +55,7 @@ Textos decoration {
     border-right - bordar da direita
     border-top - borda de cima  
     Parametros da border solid (linha reta) / dashed (linhas tracejado) / dotted (linha pontilhada), double(mais enfase)
-
+    
 }
 
 
@@ -140,7 +140,14 @@ Fotos Decoration {
     position: absolute; /* posição absoluta ao redor do seu container
     box-sizing: border-box; - um Box dentro da borda 
     figure.foto-legenda:hover figcaption - formatação especifica quando passar o mouse por cima do figcaption
+   line-height: palavras fiquem na parte inferior da imagem 
     transition: opacity 1s; - quando passar o mouse em cima da foto, demora o tempo de 1 segundo para aparecer o figcaption.
+    background-position: 50% 50%; - metade lateral e metade vertical referente a imagem
+    background-size: 400px 400px- tamanho da imagem de fundo
+    webkit-transform: scale(1.5); - da zoom na imagem, se utilizado junto ao :hover, apenas passar o mouse gera o zoom automatico.
+    -webkit-transition: all 0.4 ease-in; - all tudo, 0.4 o tempo que eu quero que a transição ocorra, ease-in forma do efeito que ele cresça de maneira suave; 
+
+
 }
 
 Container / Interfaces {
