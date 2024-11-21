@@ -180,8 +180,9 @@ Listas {
     <ul  type="Square"> - Marcação em pequenos quadrados
     <ul  type="circle"> - Marcação em pequenos circulos com bordas pretas e fundo branco
     <ul  type="disc"> - Marcação em pequenos circulos com fundos pretos
-
-
+    list-style - edição do estilo da lista
+    list-style - none; - apagar a marcação da lista
+    <span> </span> - agrupar a lista ou estilizar partes específicas do texto
 
     }
 
