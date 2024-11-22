@@ -198,7 +198,21 @@ Listas {
     list-style - none; - apagar a marcação da lista
     <span> </span> - agrupar a lista ou estilizar partes específicas do texto
     }
-
+     <fieldset> </fieldset>- agrupar formulario construindo uma borda
+     <legend> </legend> - titulo do formulario 
+      <input type="" name="" id="" size="" maxlength=""/>
+     input type="text" - caixa de textos
+     size="" -  quantidade de caracteres do texto
+     maxlength="" -  Comprimento maximo da caixa de letras
+      placeholder="" - Especie de dica que voce da ao usuario de qual vai ser o conteudo dessa caixa
+      <input type="password" - Senha
+      <input type="e-mail" -  e-mail
+      <input type="radio" - tag com bolinha para marcação, para não ocorrer de marcar duas opções ao mesmo tempo, deixar o name="" com o mesmo nome.
+       <label for="cMasc">Masculino  </label> - ao clicar somente no nome, ja fica a marcação.
+      <input  checked - deixar o type ja marcado
+      <input type="date"  - Para data de nascimento
+      <input type="number" min="0" max="999"  - Para numeros e editar um numero minimo e maximo
+    
 Tabelas {
     <tr> </tr> - Cada linha da tabela em HTML será uma Table Row, ou TR. Cada célula de dados será uma Table Data, ou TD.
     <td> </td> Table Data - Os fechamentos das tags /TR e /TD são opcionais e podem ser omitidas.
