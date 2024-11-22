@@ -20,8 +20,7 @@ Tags Integração e Link  {
     <link rel="stylesheet" type="text/css" href=""/> 
      <script language = "javascript" src=""> </script>
 
-/* Integração JS */
-    /* Tag Style abaixo do Title */
+     /* Tag Style abaixo do Title */
     STYLE h1{ 
 
     <a> </a> - Ancora, é a base para criação de um link
@@ -31,6 +30,21 @@ Tags Integração e Link  {
     url(""); - tag para carregar uma imagem ou qualquer outro tipo de arquivo em CSS. (../ para voltar uma pasta)
     no-repeate - parametro para quando anixar uma imagem ela não se repetir. 
 }
+Audio e Video:
+
+    <audio id="" controls="controls"> 
+           <source src="" type="audio/mpeg" />
+            <source src=".mp4" type="audio/x-aac" />
+            <source src=".ogg" type="audio/ogg" />
+        </audio>
+
+    <video id="" controls="controls" poster="" > /* o poster carrega uma imagem fixa, antes de ser reproduzido o video.*/ 
+              <source src=".mp4" type="video/mp4" />
+              <source src=".webm" type="video/webm" />
+              <source src=".ogv" type="video/ogg" />
+    </video>
+
+
 Textos decoration { 
     <span style="text-decoration: underline;"> </span> - formatar palavras/frases dentro da tag span
     <span style="text-decoration: overlaine;"> </span> - linha acima do texto com tag span
@@ -183,7 +197,6 @@ Listas {
     list-style - edição do estilo da lista
     list-style - none; - apagar a marcação da lista
     <span> </span> - agrupar a lista ou estilizar partes específicas do texto
-
     }
 
 Tabelas {
