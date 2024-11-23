@@ -30,21 +30,20 @@ Tags Integração e Link  {
     url(""); - tag para carregar uma imagem ou qualquer outro tipo de arquivo em CSS. (../ para voltar uma pasta)
     no-repeate - parametro para quando anixar uma imagem ela não se repetir. 
 }
-Audio e Video:
+Audio e Video: {
 
-    <audio id="" controls="controls"> 
+        <audio id="" controls="controls"> 
            <source src="" type="audio/mpeg" />
             <source src=".mp4" type="audio/x-aac" />
             <source src=".ogg" type="audio/ogg" />
         </audio>
 
-    <video id="" controls="controls" poster="" > /* o poster carrega uma imagem fixa, antes de ser reproduzido o video.*/ 
+        <video id="" controls="controls" poster="" > /* o poster carrega uma imagem fixa, antes de ser reproduzido o video.*/ 
               <source src=".mp4" type="video/mp4" />
               <source src=".webm" type="video/webm" />
               <source src=".ogv" type="video/ogg" />
-    </video>
-
-
+        </video>
+        }
 Textos decoration { 
     <span style="text-decoration: underline;"> </span> - formatar palavras/frases dentro da tag span
     <span style="text-decoration: overlaine;"> </span> - linha acima do texto com tag span
@@ -70,7 +69,7 @@ Textos decoration {
     border-top - borda de cima  
     Parametros da border solid (linha reta) / dashed (linhas tracejado) / dotted (linha pontilhada), double(mais enfase)
     
-}
+
 
 
 Textos / Fontes {
@@ -179,6 +178,7 @@ Container / Interfaces {
     Float - Flutuar o container
     clear: both; - limpar a configuração dos lados.
     article - parametro de divisão 
+    <form> </form> - container de um formulario
 
     
     }
@@ -197,7 +197,10 @@ Listas {
     list-style - edição do estilo da lista
     list-style - none; - apagar a marcação da lista
     <span> </span> - agrupar a lista ou estilizar partes específicas do texto
-    }
+    <form> </form> - container de um formulario
+    <form method="get"> </form> - pega todos os dados e coloca na url. Rápido / menos seguro
+    <form method="post"> </form> - dados são enviados por pacotes dentro da solicitação que foi feita ao site. Lento / mais seguro
+     <form method="" id="" action="mailto:"> </form>  - Action para onde os dados serão enviados, nesse caso, todos os dados que são digitados são enviados para o e-mail.
      <fieldset> </fieldset>- agrupar formulario construindo uma borda
      <legend> </legend> - titulo do formulario 
       <input type="" name="" id="" size="" maxlength=""/>
@@ -212,6 +215,28 @@ Listas {
       <input  checked - deixar o type ja marcado
       <input type="date"  - Para data de nascimento
       <input type="number" min="0" max="999"  - Para numeros e editar um numero minimo e maximo
+    <select name="" id="">
+            <option selected> Estados 1 </option> . - Usando o selected cria um parametro que ja aparece marcado na primeira opção
+             <option> Estados 2 </option>  - - criação opção de escolha do formulario dentro do select
+        </select> - cria caixas combinadas
+
+         <optgroup label="Região Sudeste">  </optgroup> - Separar formulario por região
+         <datalist id="cidades">  
+         <option value="Rio de Janeiro"> </option> - as opções do campo
+             <option value="Nova Iguaçu"> </option>
+         /datalist> - tudo que estiver entre a tag serão opções
+          <input  list="cidades"/>    - Utilizando o parametro "list" -  ele faz a ligação com o datalist.
+
+          <input type="range" name="" id="" /> - Cria um objeto que vc pode arrastar para esquerda ou direita
+          <input type="range" name="" id="" min="" max="" step=""/> - no objeto pode ser configurado um valor minimo e maximo, e usar o step que configura o tamanho do salto do objeto.
+
+          <textarea name="" id="">  </textarea> - São objetos de caixa de textos maior que o normal
+          <textarea name="" id="" cols="00">  </textarea> - quantidade de colunas que será exibida
+          <textarea name="" id="" cols="" rows="00">  </textarea> - quantiade de linhas rows
+
+
+
+}
     
 Tabelas {
     <tr> </tr> - Cada linha da tabela em HTML será uma Table Row, ou TR. Cada célula de dados será uma Table Data, ou TD.
