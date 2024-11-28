@@ -234,6 +234,14 @@ Listas {
           <textarea name="" id="" cols="00">  </textarea> - quantidade de colunas que será exibida
           <textarea name="" id="" cols="" rows="00">  </textarea> - quantiade de linhas rows
 
+          <input type="checkbox" name="" id="" /> - Cria uma caixinha de marcação
+            <input type="color" name="" id="" value="#ffffff"/> - Cria uma Caixa de cor que aparece por padrão preto, se acrescentar o "values" e o codigo da cor mudará a cor.
+
+           <input type="" name="" id="" /> readonly - Parametro que não permita que não escreva nada na caixa de dialogo, somente para leitura. 
+
+        <input type="submit" value="Enviar" /> - Cria um botão, no caso, com o nome de "Enviar".
+        <input type="image" src=".png" /> - Cria um botão, no caso,  inserindo uma imagem e a fazendo de botão.
+
 
 
 }
