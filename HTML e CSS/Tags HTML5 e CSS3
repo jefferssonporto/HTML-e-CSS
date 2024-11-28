@@ -242,6 +242,9 @@ Listas {
         <input type="submit" value="Enviar" /> - Cria um botão, no caso, com o nome de "Enviar".
         <input type="image" src=".png" /> - Cria um botão, no caso,  inserindo uma imagem e a fazendo de botão.
 
+    }
+    
+
 
 
 }
